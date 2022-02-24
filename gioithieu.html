@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Giới thiệu - SMARTPHONE VERSE</title>
+    <link rel="shortcut icon" href="img/favicon.ico" />
+
+    <!-- Load font awesome icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+        crossorigin="anonymous">
+        
+    <!-- our files -->
+    <!-- css -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/topnav.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/taikhoan.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/gioithieu.css">
+
+    <!-- js -->
+    <script src="data/products.js"></script>
+	<script src="js/dungchung.js"></script>
+    <script>
+        window.onload = function () {
+            khoiTao();
+            // thêm tags (từ khóa) vào khung tìm kiếm
+            var tags = ["iPhone", "Samsung", "Xiaomi", "Huawei", "Vivo"];
+            for (var t of tags) addTags(t, "index.html?search=" + t);
+        }
+    </script>
+
+</head>
+
+<body>
+    <script> addTopNav();</script>
+
+    <section style="min-height: 100vh">
+        <script> addHeader(); </script>
+
+        <div class="page-gt">
+            <h4 class="page-header">
+                GIỚI THIỆU
+            </h4>
+            <div class="page-info">
+                <p>Chính thức được thành lập và đi vào hoạt động từ tháng 9 năm 2019, SMARTPHONE VERSE (SPV) là một trong những nơi phân phối Điện thoại di động thông minh chính hãng đầu tiên tại Thường Tín, Hà Nội.
+                </p>
+                <br />
+                <p>
+                    Với bề dày lịch sử hoạt động với hơn 2 năm kinh nghiệm và uy tín đã tạo được trong thời gian vừa qua, SPV luôn đem lại sự hài lòng và đáp ứng được nhu cầu của khách hàng bằng tất cả sản phẩm
+                    và dịch vụ của mình.<br />
+                    Chưa dừng lại ở đó, tại đây, cùng với đội ngũ nhân viên vô cùng nhiệt tình, chu đáo cùng với đó là sự hiểu biết về công nghệ chắc chắn sẽ khiến cho khách hàng của mình rất yên tâm. Ngoài ra tại đây SPV còn sở hữu dàn nhân viên kỹ thuật cực kỳ xịn xò, sẽ luôn sẵn sàng mỗi khi quý khách gặp gặp đề với sản phẩm trong quá trình sử dụng.<br />
+                    <br />
+                    SMARTPHONE VERSE rất mong có sự đóng góp và phản hồi của quý khách để giúp nơi đây trở nên ngày một hoàn thiện để từ đó nâng cao sự tin tưởng của quý khách.<br />
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <script> addContainTaiKhoan(); </script>
+
+    <div class="footer">
+        <script>addFooter();</script>
+        
+    </div>
+
+    <i class="fa fa-arrow-up" id="goto-top-page" onclick="gotoTop()"></i>
+</body>
+
+</html>
