@@ -62,7 +62,7 @@ window.onload = function () {
 		addKhungSanPham('Nổi bật', yellow_red, ['star=3', 'sort=rateCount-decrease'], soLuong);
 		addKhungSanPham('Mới ra mắt', blue, ['promo=moiramat', 'sort=rateCount-decrease'], soLuong);
 		addKhungSanPham('Trả góp 0%', yellow_red, ['promo=tragop'], soLuong);
-		addKhungSanPham('Giảm giá online', green, ['promo=giareonline'], soLuong);
+		addKhungSanPham('Giar giá online', green, ['promo=giareonline'], soLuong);
 		addKhungSanPham('Sale to', yellow_red, ['promo=giamgia'], soLuong);
 		addKhungSanPham('Giá tầm trung', green, ['price=0-3000000', 'sort=price'], soLuong);
 	}
