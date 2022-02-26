@@ -109,13 +109,13 @@ function animateCartNumber() {
 function themVaoGioHang(masp, tensp) {
     var user = getCurrentUser();
     if (!user) {
-        alert('Bạn cần đăng nhập để mua hàng !');
+        alert('Bạn cần đăng nhập để mua hàng!');
         showTaiKhoan(true);
         return;
     }
     if (user.off) {
-        alert('Tài khoản của bạn hiện đang bị khóa nên không thể mua hàng!');
-        addAlertBox('Tài khoản của bạn đã bị khóa bởi Admin.', '#aa0000', '#fff', 10000);
+        alert('!!!Tài khoản của bạn hiện đang bị khóa!');
+        addAlertBox('!!!Tài khoản của bạn đã bị khóa.', '#aa0000', '#fff', 10000);
         return;
     }
     var t = new Date();
@@ -532,7 +532,7 @@ function addHeader() {
 	<div class="header group">
         <div class="logo">
             <a href="index.html">
-                <img src="img/logo.jpg" alt="Trang chủ Smartphone Store" title="Trang chủ Smartphone Store">
+                <img src="img/logo.jpg" alt="Trang chủ Smartphone Verse" title="Trang chủ Smartphone Verse">
             </a>
         </div> <!-- End Logo -->
 
@@ -594,7 +594,7 @@ function addFooter() {
     <!-- ============== Footer ============= -->
     <div class="copy-right">
         <p><a href="index.html">SMARTPHONE VERSE</a> - All rights reserved © 2022 - Designed by
-            <span style="color: #eee; font-weight: bold">CTTNHH HUNGDD</span></p>
+            <span style="color: #eee; font-weight: bold">HUNGDD CORPORATION</span></p>
     </div>`);
 }
 
